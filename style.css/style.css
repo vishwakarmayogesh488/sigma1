@@ -1,0 +1,71 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Montserrat:ital,wght@0,300;0,500;1,500&family=Open+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f5ed;
+}
+
+/* nav start */
+.logo{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 15px 13%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo-own{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:#3b855b;
+}
+nav .nav-head {
+    display: flex; 
+    
+}
+nav .nav-head li {
+ list-style: none;
+ margin: 0 30% 0 15%;
+}
+
+/* main section start */
+
+.main-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: -1px 4% 0 100px;
+    margin-top: 60px;
+}
+.left-side{
+    width: 40%;
+    line-height: 42px;
+}
+.righ-side {
+    display: flex;
+    width: 60%;
+    
+}
+.righ-side .img{
+   width: 10%;
+}
+
+button{
+    padding: 13px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #3b855b;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+
